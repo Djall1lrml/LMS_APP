@@ -4,6 +4,8 @@ export default function Page() {
   return (
     <main className="flex items-center justify-center min-h-[calc(100vh-80px)]">
       <SignIn
+        // Replace deprecated prop
+        fallbackRedirectUrl="/"
         appearance={{
           elements: {
             formButtonPrimary: "bg-primary hover:bg-primary/80",
