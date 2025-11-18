@@ -2,7 +2,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { Suspense } from "react";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-
+import proxy from "../proxy";
 export const metadata = {
   title: "My App",
   description: "Example App",
