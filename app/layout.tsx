@@ -7,7 +7,9 @@ export const metadata = {
   title: "My App",
   description: "Example App",
 };
-
+// Add this at the top of your layout to force no-store
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 export default function RootLayout({
   children,
 }: {
