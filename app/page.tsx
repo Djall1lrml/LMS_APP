@@ -8,6 +8,7 @@ import {
 } from "@/lib/actions/companion.action";
 import { getSubjectColor } from "@/lib/utils";
 export const dynamic = "force-dynamic";
+// ...existing code...
 const Page = async () => {
   const companions = await getAllCompanions({ limit: 3 });
   const recentSessionsCompanions: Companion[] =
